@@ -1,0 +1,66 @@
+body{
+    --accent-color: orangered;
+    --background-color:white;
+    --text-color:black;
+    --buttom-text-color:var(--background-color);
+    --transition-delay: 1s;
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    background: white;
+    transition: var(--transition-delay);
+}
+
+button{
+    width: 230px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background: orange;
+}
+body h2{
+    margin: 0;
+    margin-bottom: .5rem;
+   
+}
+
+.ri-sun-fill{
+position: relative;
+right: 79px;
+top: 22px;
+margin-right: 20px;
+font-size: 20px;
+
+}
+
+/* .{
+    position: relative;
+    bottom: 200px;
+    right: 97px; */
+/* } */
+/* .ri-contrast-2-line{
+    position: relative;
+    bottom: 200px;
+    right: 97px;
+}
+
+
+.ri-contrast-2-fill{
+    position: relative;
+    bottom: 200px;
+    right: 97px;
+} */
+
+body.Dark{
+
+    background: black;
+
+
+}
+
